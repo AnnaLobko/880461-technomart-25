@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Анна Лобко](https://up.htmlacademy.ru/htmlcss/25/user/880461).
-* Наставник: `Неизвестно`.
+* Наставник: [Vladislav Rostov](https://htmlacademy.ru/profile/id425565).
 
 ---
 
