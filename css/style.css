@@ -162,38 +162,58 @@ h1{
   line-height: 18px;
   color: #000000;
 }
+.sorting {
+  background-color: #f5f2ec;
+}
+.sorting h3{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 .sorting a {
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
-  line-height: 400;
+  font-weight: 400;
+  line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px dashed #cd3944;
+}
+a.sorting-active{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #cd3944;
+  border: none;
 }
 .sorting a:hover {
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
-  line-height: 400;
+  line-height: 18px;
   color: #000000;
   border-bottom: 1px solid #cd3944;
 }
 .sorting a:focus {
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
-  line-height: 400;
+  line-height: 18px;
   color: #cd3944;
   border: none;
 }
-legend > p{
-  font-family: 'PT Sans', sans-serif, bold;
+.legend-filter {
+  font-family: 'PT Sans', sans-serif,
   font-size: 17px;
-  line-height: 700;
+  font-weight: 700;
+  line-height: 30px;
   color: #000000;
   text-transform: uppercase;
 }
 .filter h3 {
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
-  line-height: 400;
+  line-height: 18px;
+  font-weight: 400;
   color: #000000;
   background-color: #f5f2ec;
 }
