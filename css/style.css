@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -157,7 +157,7 @@ h1{
   margin: -1px;
 }
 .breadcrumbs li > a{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -166,14 +166,14 @@ h1{
   background-color: #f5f2ec;
 }
 .sorting h3{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
 .sorting a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -181,28 +181,28 @@ h1{
   border-bottom: 1px dashed #cd3944;
 }
 a.sorting-active{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #cd3944;
   border: none;
 }
 .sorting a:hover {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
   border-bottom: 1px solid #cd3944;
 }
 .sorting a:focus {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #cd3944;
   border: none;
 }
 .legend-filter {
-  font-family: 'PT Sans', sans-serif,
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
@@ -210,7 +210,7 @@ a.sorting-active{
   text-transform: uppercase;
 }
 .filter h3 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
@@ -218,7 +218,7 @@ a.sorting-active{
   background-color: #f5f2ec;
 }
 .filter-input {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 400;
   color: #000000;
@@ -357,21 +357,21 @@ a.sorting-active{
   border: 1px solid #eaeaea;
 }
 .catalog-item a{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   color: #000000;
 }
 .catalog-item-price > b > del{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
   color: #a8a8a8;
 }
 .catalog-item-price a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -419,7 +419,7 @@ a.sorting-active{
   color: #3a445b;
 }
 .about-service {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -431,8 +431,8 @@ a.sorting-active{
   color: #ffffff;
   background-color: #3a445b;
 }
-.service-list:focus{
-  background-color: #ffffff:
+.service-list:focus {
+  background-color: #ffffff;
   color: #3a445b;
 }
 .about-company h2{
@@ -442,7 +442,7 @@ a.sorting-active{
   text-transform: uppercase;
 }
 .about-company p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -474,7 +474,7 @@ a.sorting-active{
   text-transform: uppercase;
 }
 .about-company p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -495,7 +495,7 @@ a.sorting-active{
   background-color: #a02c35;
 }
 .pagination-item a{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -504,7 +504,7 @@ a.sorting-active{
   border-radius: 2px;
 }
 .pagination-item a:hover {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -513,7 +513,7 @@ a.sorting-active{
   border-radius: 2px;
 }
 .pagination-item a:focus {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -522,7 +522,7 @@ a.sorting-active{
   border-radius: 2px;
 }
 .pagination-item-current a{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
@@ -538,7 +538,7 @@ a.sorting-active{
   color: #000000;
 }
 .about-perforators p{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size:13px;
   line-height: 24px;
   color: #000000;
