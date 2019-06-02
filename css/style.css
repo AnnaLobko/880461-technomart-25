@@ -165,7 +165,7 @@ h1{
 .sorting {
   background-color: #f5f2ec;
 }
-.sorting h3{
+.sorting-name{
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -363,7 +363,7 @@ a.sorting-active{
   line-height: 20px;
   color: #000000;
 }
-.catalog-item-price > b > del{
+.catalog-item-price del{
   font-family: 'PT Sans', Arial, sans-serif;
   font-weight: 700;
   font-size: 17px;
