@@ -9,21 +9,22 @@
   </head>
   <body>
     <header class="main-header">
+      <div class="header">
       <div class="mine-header-bar">
-        <div class="container">
+        <div class="container1">
           <a  class="main-header-logo" href="index.html">
           <img src="img/logo.png" width="220" height="47" alt="лототип интернет-магазина техномарт">
           </a>
-          <input type="text" name="search" placeholder="Поиск:">
+          <input type="search" name="search" placeholder="Поиск:">
           <ul class="icon">
             <li class="basket">
               <a  class="button" href="bookmarks.html">
-              Закладки
+              Закладки: 0
               </a>
             </li>
             <li>
-              <a class="button" href="bascet.html">
-              Корзина
+              <a class="button bascet" href="bascet.html">
+              Корзина: 10
               </a>
             </li>
             <li>
@@ -34,9 +35,10 @@
           </ul>
         </div>
       </div>
+      <div class="contacts-user">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <div class="main-header-contacts">
-        <div class="container">
+
+        <div class="main-header-contacts">
           <span class="contacts-tel">
           +7(812)555-05-55
           </span>
@@ -44,7 +46,7 @@
             г.Санкт-Петербург, ул. Б. Конюшенная,д. 19/8
           </div>
         </div>
-        <div class="user-block user-block-login">
+        <div class=" user-block-login">
           <a href="#">
           Равшан Джамшутович
           </a>
@@ -62,7 +64,7 @@
           </ul>
         </div>
       </div>
-      <nav>
+      <nav class="navigation">
         <ul class="site-navigation">
           <li><a href="index.html">Главная</a></li>
           <li><a href="info.html">Компания</a></li>
@@ -100,6 +102,7 @@
           </a>
         </li>
       </ul>
+      <div class="filter-catalog">
       <section class="filters">
         <h2 class="visually-hidden">
           Фильтр товаров
@@ -177,7 +180,7 @@
         </form>
       </section>
       <section>
-        <h2>
+        <h2 class="visually-hidden">
           Список перфораторов
         </h2>
         <ul class="sorting">
@@ -373,6 +376,7 @@
           </li>
         </ul>
       </section>
+    </div>
       <section class="about-perforators">
         <h2>Пара слов о перфораторах</h2>
         <p>
@@ -383,7 +387,7 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer-bar">
-        <div class="container">
+        <div class="container2">
           <a  class="main-footer-logo" href="index.html">
           <img src="img/logo.png" width="220" height="47" alt="лототип интернет-магазина техномарт">
           </a>
@@ -395,7 +399,7 @@
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </div>
-        <div>
+        <div class="container3">
           <p class="contacts-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
@@ -407,30 +411,24 @@
           </ul>
         </div>
         <div class="information">
-          <p class="created">
-            © 2010–2019 Компания «Техномарт» Все права защищены
-          </p>
-          <div class="footer-social">
-            <ul class="social-icons">
-              <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul>
-          </div>
-          <p class="feedback">
-            <b>Обратная связь:</b>
-            <a class="button" href="#">
-            mail@htmlacademy.ru
-            </a>
-          </p>
-          <p class="footer-copyright">
-            <b>Разработано-</b>
-            <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">
-            HTML Academy
-            </a>
-          </p>
+        <p class="created">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <div class="footer-social">
+          <ul class="social-icons">
+            <li><a class="social-button" href="#"> Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
         </div>
+        <p class="feedback">
+          <b>Обратная связь:</b>
+          <a class="button" href="#">mail@htmlacademy.ru</a>
+        </p>
+        <p class="footer-copyright">
+          <b>Разработано-</b>
+          <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        </p>
       </div>
+     </div>
     </footer>
   </body>
 </html>
