@@ -16,14 +16,14 @@
           <img src="img/logo.png" width="220" height="47" alt="лототип интернет-магазина техномарт">
           </a>
           <input type="search" name="search" placeholder="Поиск:">
-          <ul class="icon">
-            <li class="basket">
-              <a  class="button" href="bookmarks.html">
+          <ul class="basket-order">
+            <li>
+              <a class="button bookmarks" href="bookmarks.html">
               Закладки: 0
               </a>
             </li>
             <li>
-              <a class="button" href="bascet.html">
+              <a class="button bascet" href="bascet.html">
               Корзина: 0
               </a>
             </li>
@@ -37,7 +37,6 @@
       </div>
       <div class="contacts-user">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-
         <div class="main-header-contacts">
           <span class="contacts-tel">
           +7(812)555-05-55
@@ -47,7 +46,7 @@
           </div>
         </div>
         <div class="user-block">
-          <a class="button" href="#">
+          <a class="button entrance" href="#">
           Войти
           </a>
           <a href="#" class="button">
@@ -72,6 +71,7 @@
       <section class="offers">
         <h2 class="visually-hidden">Предложения:</h2>
         <ul class="main-offers">
+         <div class="block-offers-top">
           <li class="offers-section materials">
             <h3>Материалы</h3>
             <!--иконка new-->
@@ -81,6 +81,8 @@
             <h3> Инструмент</h3>
             <a class="button" href="#">На все случаи</a>
           </li>
+        </div>
+        <div class="block-offers-right">
           <li class="offers-section equipment">
             <h3>Техника</h3>
             <a class="button" href="#">Для стройки</a>
@@ -93,6 +95,7 @@
             <h3> Доставка</h3>
             <a class="button-catalog" href="#">Бесплатно</a>
           </li>
+        </div>
         </ul>
         <ul class="sliders">
           <li class="slide-1">
@@ -335,8 +338,8 @@
       </div>
     </div>
     </footer>
-   <!-- <section class="modal modal-login">
-      <h2 class="visuality-hidden">Напишите нам</h2>
+   <!--<section class="modal modal-login">
+      <h2 class="visually-hidden">Напишите нам</h2>
       <form>
         <label>
         Ваше имя:
