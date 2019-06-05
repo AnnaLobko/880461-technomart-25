@@ -18,52 +18,59 @@ a{
   margin: 0 auto;
   padding-left: 10px;
 }
+.button {
+  margin: 0;
+  min-width: 100px;
+  padding: 8px, 15px;
+  text-align: center;
+}
 .main-header{
   background-color: #f1f4f6;
   margin-bottom: 10px;
-  min-height: 300px;
+  min-height: 320px;
 }
 .mine-header-bar {
   width: 100%;
-  height: 44px;
+  height: 42px;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
   background-color: #30374a;
+  margin-bottom: 43px;
 }
 .container1 {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 .basket-order{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 11px;
+  margin-left: 120px;
+  padding:0;
 
 }
 .navigation{
   margin: 0 auto;
   width: 940px;
-  height: 60px;
-  padding-bottom:26px;
-
+  background-color: #3a445b;
 }
 .site-navigation{
   display: flex;
-  width: 940px;
-  min-height: 61px;
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
   background-color: #3a445b;
+  border-bottom: 5px solid #30374a;
 }
 .site-navigation a{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 22px 30px 22px 30px;
 }
@@ -191,6 +198,9 @@ a:focus.cart-item{
   background-color: #a02c35;
 }
 a.checkout{
+  padding-left: 20px;
+  padding-right: 23px;
+  padding-bottom: 10px;
   background-color: #7aa448;
 }
 a:hover.checkout {
@@ -207,14 +217,11 @@ a:focus.checkout{
 }
 h1{
   font-size: 16px;
+  font-style: italic;
   color: #cd3944;
-  width: 200px;
-  margin-left: 0;
-}
-.page-title {
-  font-size: 30px;
-  line-height: 30px;
-  color: #3a445b;
+  width: 205px;
+  margin-top: 5px;
+  margin-left: 50px;
 }
 .contacts-tel{
   font-size: 21px;
@@ -224,8 +231,9 @@ h1{
   border: 3px solid #ffffff;
   width: 46px;
   min-height: 270px;
-  padding: 12px 30px 10px 72px;
+  padding: 8px 50px 9px 72px;
   margin-top: 15px;
+  margin-bottom: 5px;
 }
 .contacts-user {
   margin: 0 auto;
@@ -235,13 +243,14 @@ h1{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-bottom: 23px;
 }
 .contacts-adress{
+  text-align: center;
   font-size: 14px;
   line-height: 24px;
   color: #3a445b;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 .user-block a,
 a.entrance{
@@ -366,6 +375,9 @@ a.sorting-active{
   color: #cd3944;
   border: none;
 }
+.filters fieldset{
+  border: none;
+}
 .filter-catalog{
   display: flex;
 }
@@ -401,16 +413,17 @@ a.sorting-active{
   border-radius: 2px;
   background-color: #ffffff;
 }
+
 .main-offers{
-  padding: 0;
   display: flex;
+  padding: 0;
   height: auto;
 }
 .block-offers-top{
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
-  height: auto;
+  height: 123px;
 }
 .block-offers-right{
   padding: 0;
@@ -453,7 +466,7 @@ a.sorting-active{
   margin-top: 15px;
   padding: 14px 24px 14px 24px;
 }
-
+.icon-new::after,
 .tool,
 .materials,
 .equipment,
@@ -461,6 +474,7 @@ a.sorting-active{
 .delivery{
   position: relative;
 }
+
 .materials::after,
 .tool::after,
 .equipment::after,
@@ -542,8 +556,8 @@ a.sorting-active{
   padding: 14px 37px 14px 37px;
 }
 .sliders {
-  display: flex;
-}
+  padding:0;
+  }
 .sliders h3{
   font-size: 36px;
   line-height: 36px;
@@ -582,13 +596,17 @@ a.sorting-active{
   background-color: #f8f5f0;
   margin-top: 53px;
   padding-left: 30px;
-
+  margin-bottom: 30px;
   align-items: center;
 }
-.popular-goods{
+.popular-goods,
+.manufacturers,
+.page-title{
   font-size: 30px;
   line-height: 30px;
   color: #3a445b;
+  text-transform: uppercase;
+
 }
 .all-goods{
   width: 940px;
@@ -622,44 +640,130 @@ a.sorting-active{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
+  margin: 20px auto;
+  width: 700px;
 }
 .catalog-item{
-  margin: 0;
-  width: 220px;
-  margin: 10px;
-  border: 1px solid #eaeaea;
-}
-.catalog-item a{
   font-family: 'PT Sans', Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   line-height: 20px;
-  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
 }
-.catalog-item-price del{
-  font-family: 'PT Sans', Arial, sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 18px;
-  color: #a8a8a8;
+.catalog-item:nth-child(3n){
+  margin-right: 0;
 }
-.catalog-item-price a {
-  font-family: 'PT Sans', Arial, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 18px;
+.item4{
+  margin-left: 20px;
+}
+.catalog-list{
+  font-size: 0;
+}
+.catalog-item{
+  font-size: 16px;
+}
+.catalog-item .flag{
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+.catalog-item .flag{
+  background: url("../img/new-flag.png") no-repeat 0 0;
+}
+.catalog-item img{
+  width: 100%;
+  padding: 0;
+}
+.catalog-item .action{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+}
+.catalog-item .action .buy,
+.catalog-item .action .item-bookmark {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding: 7px 0;
+  background-color: #63a63e;
+  border: 3px solid #63a63e;
+  border-bottom-color: #367315;
+  border-radius: 3px;
   color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
   text-transform: uppercase;
-  background-color: #ee3643;
+}
+.catalog-item .action .item-bookmark{
+  color: #32425c;
+  background-color: #ffffff;
+  border-bottom-color: #63a63e;
+}
+.catalog-item .action {
+  display: none;
 }
 
-.manufacturers{
-  width: 940px;
-  font-size: 30px;
-  line-height: 30px;
-  color: #3a445b;
-  background-color: #f8f5f0;
+.catalog-item:hover .action {
+  display: block;
+}
+.catalog-item .image{
+  width: 218px;
+  height: 168px;
+}
+.catalog-item .image img{
+  max-width: 100%;
+}
+.catalog-item .title{
+  min-height: 40px;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.catalog-item .discount{
+  min-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #989898;
+  text-decoration: line-through;
+}
+.catalog-item .catalog-item-price{
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  color: #ffffff;
+  background-color: #ee3643;
+  border-radius: 3px;
+}
+.catalog-item .catalog-item-price::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border: 20px solid #ffffff;
+  border-left-color: #ee3643;
 }
 .popular-manufacturers{
   padding: 0;
@@ -737,10 +841,15 @@ a.sorting-active{
   justify-content: space-between;
   padding: 0;
   margin-bottom: 86px;
+  background-image: url("../img/shadow.svg");
+  background-position: 0 0;
+  background-repeat: repeat;
+
 }
 .about-company {
   width: 540px;
   margin-right: 90px;
+
 }
 .about-company h2{
   font-size: 30px;
@@ -905,7 +1014,27 @@ display: flex;
   justify-content: space-between;
 }
 .social-icons{
-  width: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 140px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+.social-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282e3c;
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.social-button:hover,
+.social-button:focus{
+  background-color: #cd3944;
 }
 .created{
   width: 240px;
@@ -916,13 +1045,15 @@ display: flex;
 .feedback{
   width: 160px;
 }
-.feedback b{
+.feedback b,
+.footer-copyright b{
   text-align: center;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
-.feedback a{
+.feedback a,
+.footer-copyright a{
   text-align: center;
   font-size: 16px;
   line-height: 18px;
@@ -932,15 +1063,12 @@ display: flex;
   width: 120px;
   margin-right: 10px;
 }
-.footer-copyright b{
-  text-align: center;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
+.feedback a:hover,
+.footer-copyright a:hover{
+  text-decoration: underline;
 }
-.footer-copyright a{
-  text-align: center;
-  font-size: 16px;
-  line-height: 18px;
-  color: #f3d084;
+.feedback a:focus,
+.footer-copyright a:focus{
+  color: #cd3944;
+  text-decoration: none;
 }
