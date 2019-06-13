@@ -167,6 +167,7 @@ a {
 .bascet,
 .entrance,
 .user-block-login,
+.exit,
 .contacts-tel {
   position: relative;
   padding-left: 50px;
@@ -194,14 +195,14 @@ a {
   height: 42px;
 }
 
-.user-block-login::after,
+.exit::after,
 .user-block-login::before {
   top: 17px;
   width: 23px;
   height: 20px;
 }
 
-.user-block-login::after {
+.exit::after {
   position: absolute;
   content: "";
   background-repeat: no-repeat;
@@ -236,13 +237,17 @@ a {
   background-image: url("../img/icon-user.svg");
 }
 
-.user-block-login::after {
-  right: 15px;
+a.exit{
+  padding: 0;
+}
+
+.exit::after {
+  right: 10px;
   background-image: url("../img/icon-logout.svg");
 }
 
 .user-block-login:hover::before,
-.user-block-login:hover::after,
+.exit:hover::after,
 .entrance:hover::before,
 .bascet:hover::before,
 .bookmarks:hover::before,
@@ -253,7 +258,7 @@ a {
 }
 
 .user-block-login:focus::before,
-.user-block-login:focus::after,
+.exit:focus::after,
 .entrance:focus,
 .bascet:focus,
 .bookmarks:focus {
