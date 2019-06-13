@@ -12,13 +12,16 @@
       <div class="header">
       <div class="mine-header-bar">
         <div class="header-bar">
-          <a  class="main-header-logo" href="index.html">
-          <img src="img/logo.png" width="220" height="47" alt="лототип интернет-магазина техномарт">
+          <div class="logo">
+            <a  class="main-header-logo" href="index.html">
+            <img src="img/logo-technomart.svg" width="108" height="18" alt="лототип интернет-магазина техномарт">
           </a>
+          </div>
           <div class="search">
             <form action="#" method="get">
-              <input type="search" name="search" id="search" placeholder="Поиск:">
-              <label class="input-search" for="search"></label>
+              <label class="input-search">
+              <input type="search" name="search" placeholder="Поиск:">
+              </label>
             </form>
           </div>
           <ul class="basket-order">
@@ -72,15 +75,16 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
       <section class="offers">
         <h2 class="visually-hidden">Предложения:</h2>
         <div class="main-offers">
          <div class="block-offers-top">
           <div class="top-section">
           <div class="offers-section materials  new-ikon flag">
+            <div class="flag ikon-new">новинка
+            </div>
             <h3>Материалы</h3>
-            <!--иконка new-->
             <a class="button" href="#">На любой вкус</a>
           </div>
           <div class="offers-section tool">
@@ -89,23 +93,24 @@
           </div>
         </div>
           <div class="sliders">
-            <div class="slide-1">
-              <div class="slide-name">
-              <h3>Дрели</h3>
-              <p>Соседям на радость!</p>
+            <div class="sliders-controls"></div>
+            <div class="sliders-inner">
+              <div class="slider-slides">
+                <div class="slide-1">
+                  <h3 class="slide-name">Дрели</h3>
+                  <p>Соседям на радость!</p>
+                  <a href="#" class="button-slider">Открыть каталог</a>
+                  <img src="img/slide-2.jpg" width="620" height="266" alt="дрели">
+                </div>
+                <div class="slide-2">
+                  <h3 class="slide-name">Перфораторы</h3>
+                  <p>Настоящие мужские игрушки</p>
+                  <a href="#" class="button-slider">Открыть каталог</a>
+                  <img src="img/slide-1.jpg" width="620" height="266" alt="перфораторы">
+                </div>
+               </div>
+              </div>
             </div>
-              <a href="#" class="button-slider">Открыть каталог</a>
-              <img src="img/slide-2.jpg" width="620" height="266" alt="дрели">
-            </div>
-            <div class="slide-2">
-              <div class="slide-name">
-              <h3>Перфораторы</h3>
-              <p>Настоящие мужские игрушки</p>
-            </div>
-              <a href="#" class="button-slider">Открыть каталог</a>
-              <img src="img/slide-1.jpg" width="620" height="266" alt="перфораторы">
-            </div>
-           </div>
           </div>
         <div class="block-offers-right">
           <div class="offers-section equipment">
@@ -122,8 +127,7 @@
           </div>
          </div>
         </div>
-
-      </section>
+     </section>
       <section class="all-goods">
         <div class="headline">
         <h2 class="popular-goods">Популярные товары:</h2>
@@ -131,8 +135,6 @@
         </div>
         <div class="index-catalog">
           <div class="catalog-item" tabindex="0">
-            <div class="flag ikon-new">новинка
-            </div>
             <div class="action">
               <a href="#" class="buy" tabindex="0">Купить</a>
               <a href="#" class="item-bookmark" tabindex="0">В закладки</a>
@@ -166,6 +168,8 @@
           </div>
 
           <div class="catalog-item item4" tabindex="0">
+            <div class="flag ikon-new">новинка
+            </div>
             <div class="action">
               <a href="#" class="buy" tabindex="0">Купить</a>
               <a href="#" class="item-bookmark" tabindex="0">В закладки</a>
@@ -224,48 +228,49 @@
           </li>
         </ul>
       </section>
+    <div class="background-service">
       <div class="service">
+        <div class="service-info">
         <h2>Сервисы</h2>
         <p>
           Хороший интернет-магазин отличается от плохого не только ценами!
-        </p>
-        <p>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
+        </div>
         <div class="services">
-        <div class="button-service">
-          <p class="service-list">Доставка</p>
-          <p class="service-list">Гарантия</p>
-          <p class="service-list">Кредит</p>
-        </div>
-        <div class="delivery-service">
-          <h3>Доставка</h3>
-          <p class="about-service">
-            Мы с удовольствием доставим ваш товар прямо <br>
-            к вашему подъезду совершенно бесплатно!
-          </p>
-          <p class="about-service">
-            Ведь мы неплохо заработаем,<br>
-            поднимая его на ваш этаж!
-          </p>
-        </div>
-        <!--<div class="guarantees">
-          <h3>Гарантия</h3>
-          <p class="about-service">
-            Если купленный у нас товар поломается, или заискрит,<br>
-            а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
-            Дом уж восстановите как-нибудь сами.
-          </p>
-        </div>
-        <div class="credit">
+          <div class="button-service">
+            <p class="button-active service-list">Доставка</p>
+            <p class="service-list">Гарантия</p>
+            <p class="service-list">Кредит</p>
+          </div>
+          <div class="delivery-service">
+            <h3>Доставка</h3>
+            <p class="about-service about-delivery">
+              Мы с удовольствием доставим ваш товар прямо <br>
+              к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем,<br>
+              поднимая его на ваш этаж!
+            </p>
+          </div>
+          <div class="guarantees">
+            <h3>Гарантия</h3>
+            <p class="about-service">
+              Если купленный у нас товар поломается, или заискрит,<br>
+              а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
+              Дом уж восстановите как-нибудь сами.
+            </p>
+          </div>
+          <div class="credit">
           <h3>Кредит</h3>
           <p class="about-service">
             Залезть в долговую яму стало проще!<br>
             Кредитные консультанты придут вам на помощь.
           </p>
-        </div>-->
+          <a class="application all" tabindex="0">Отправить заявку</a>
+          </div>
+        </div>
       </div>
-      </div>
+    </div>
       <div class="index-columns">
       <section class="about-company">
         <h2>Компания «Техномарт»</h2>
@@ -274,7 +279,9 @@
         <p class="list">Деловые линии</p>
         <p class="list">Автотрейдинг</p>
         <p class="list">ЖелДорЭкспедиция</p>
-        <a class="about-company-button" tabindex="0">Подробнее о компании</a>
+        <div class="about-company-button">
+        <a tabindex="0">Подробнее о компании</a>
+      </div>
       </section>
       <section class="address-map">
         <h2>Контакты</h2>
@@ -290,10 +297,12 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer-bar">
-        <div class="container2">
-          <a  class="main-footer-logo" href="index.html">
-          <img src="img/logo-footer.png" width="220" height="68" alt="лототип интернет-магазина техномарт">
+        <div class="navigation-footer-bar">
+          <div class="logo-footer">
+            <a  class="main-footer-logo" href="index.html">
+            <img src="img/logo-technomart.svg" width="108" height="18" alt="лототип интернет-магазина техномарт">
           </a>
+          </div>
           <ul class="footer-site-navigation">
             <li><a href="company.html">Компания</a></li>
             <li><a href="news.html">Новости</a></li>
@@ -302,7 +311,7 @@
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </div>
-        <div class="container3">
+        <div class="info-footer">
           <p class="contacts-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
@@ -313,6 +322,8 @@
             <li><a href="special.html">Спецпредложения</a></li>
           </ul>
         </div>
+      </div>
+      <div class="info-social">
         <div class="information">
         <p class="created">© 2010–2019 Компания «Техномарт» Все права защищены</p>
         <div class="footer-social">
@@ -354,26 +365,38 @@
       </div>
     </div>
     </footer>
-   <section class="modal modal-login">
+   <!--<section class="modal modal-login">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form class="letter-form">
-        <label>
-        Ваше имя:
-        <input type="text" name="name" placeholder="Имя Фамилия">
-        </label>
-        <label>
-        Ваш e-mail:
-        <input type="email" name="e-mail" placeholder="email@example.com">
-        </label>
-        <label>
-        Текст письма:
-        <input type="text" name="letter" placeholder="В свободной форме">
-        </label>
-        <button>
-        Отправить
-        </button>
+        <div class="name-email">
+        <div class="appointment-letter">
+          <label for="name">Ваше имя:</label>
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </div>
+        <div class="appointment-letter">
+          <label for="e-mail">Ваш e-mail:</label>
+          <input type="email" name="e-mail" id="e-mail" placeholder="email@example.com">
+        </div>
+      </div>
+      <div class="letter">
+        <div class="appointment-letter letter-text">
+          <label for="letter">Текст письма:</label>
+          <input type="text" rows="5" name="letter" id="letter" placeholder="В свободной форме">
+        </div>
+      </div>
+      <div class="modal-background">
+        <div>
+          <a class="all button-send">Отправить</a>
+        </div>
+      </div>
       </form>
-      <span class="modal-close">x</span>
-    </section>
+      <button class="modal-close"></button>-->
+    <!--</section>
+    <section class=" modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <p><img src="img/big-map.jpg" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>-->
+
   </body>
 </html>
