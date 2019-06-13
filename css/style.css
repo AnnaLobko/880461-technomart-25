@@ -1557,7 +1557,7 @@ p.about-company {
 
 .address-map {
   width: 380px;
-  margin-top: 35px;
+  margin: 0;
   padding: 0;
 }
 
