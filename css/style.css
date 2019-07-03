@@ -327,6 +327,10 @@ a.checkout:active {
   background-color: #252b3b;
 }
 
+.contacts-catalog{
+  margin-top: 6px;
+}
+
 .contacts-user h1 {
   font-size: 15px;
   font-style: italic;
@@ -358,11 +362,12 @@ a.checkout:active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 .contacts-user-catalog {
   margin-top: 17px;
+  margin-bottom: 25px;
 }
 
 .contacts-adress {
@@ -1657,6 +1662,7 @@ p.about-service {
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 26px;
+  letter-spacing: 0.01em;
 }
 
 .service h3 {
